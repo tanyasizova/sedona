@@ -151,8 +151,7 @@ body {
   right: 10px;
   left: 3px;
   margin: auto;
-  padding-left: 19px;
-  padding-bottom: 20px;
+  padding: 0 0 20px 19px;
   fill: rgba(255, 255, 255, 1);
 }
 
@@ -447,8 +446,7 @@ body {
   background: #756257;
   border-radius: 10px;
   margin: 56px 313px 93px 313px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 15px 0 15px 0;
   text-decoration: none;
 }
 
@@ -571,10 +569,6 @@ body {
   background-color: #ffffff;
 }
 
-/* .footer-social {
-  margin-left: 50px;
-} */
-
 .footer-social-list {
   display: flex;
   flex-wrap: wrap;
@@ -619,10 +613,7 @@ body {
 
 .footer-phone {
   width: 720px;
-  /* margin-right: 60px; */
-  margin-top: 40px;
-  /* margin-left: 60px; */
-  margin-bottom: 40px;
+  margin: 40px 0;
   text-align: center;
 }
 
@@ -658,7 +649,6 @@ body {
 
 .footer-developer {
   width: 115px;
-  /* margin-right: 44px; */
   margin-top: 42px;
   fill: rgba(0, 0, 0, 1);
   cursor: pointer;
@@ -691,10 +681,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   color: #ffffff;
-  padding-left: 71px;
-  padding-right: 72px;
-  padding-top: 35px;
-  padding-bottom: 48px;
+  padding: 35px 72px 48px 71px;
 }
 
 .inner-header-title {
@@ -763,8 +750,7 @@ body {
 }
 
 .catalog-filter-group {
-  margin: 0;
-  margin-bottom: 40px;
+  margin: 0 0 40px 0;
   padding: 0;
   border: none;
 }
@@ -976,8 +962,7 @@ body {
 .container-button {
   display: flex;
   flex-direction: column;
-  margin-left: 78px;
-  margin-top: 62px;
+  margin: 62px 0 0 78px;
 }
 
 .button-submit {
@@ -1068,8 +1053,7 @@ body {
   font-size: 18px;
   line-height: 23px;
   width: 287px;
-  margin-right: 74px;
-  margin-top: 25px;
+  margin: 25px 74px 0 0;
 }
 
 .hotel-on-page {
@@ -1115,8 +1099,7 @@ body {
   border: 2px solid rgba(230, 230, 230, 1);
   border-radius: 4px;
   outline: none;
-  margin-left: 8px;
-  margin-top: 25px;
+  margin: 25px 0 0 8px;
 }
 
 .card-grid-toggle:hover {
@@ -1215,8 +1198,6 @@ body {
   grid-row: 5/6;
   background: #756257;
   border-radius: 4px;
-  border: 3px solid transparent;
-  outline: none;
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
@@ -1224,7 +1205,7 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   margin: 17px 17px 7px 0;
-  padding: 9px 0 10px 0;
+  padding: 11px 0 12px 0;
   min-width: 133px;
   text-decoration: none;
 }
@@ -1235,7 +1216,7 @@ body {
 
 .hotel-card-button:focus {
   background-color: rgba(97, 80, 72, 1);
-  border: 3px solid rgba(131, 179, 211, 1);
+  outline: 3px solid rgba(131, 179, 211, 1);
 }
 
 .hotel-card-button:active {
@@ -1249,8 +1230,6 @@ body {
   grid-row: 5/6;
   background: #83b3d3;
   border-radius: 4px;
-  border: 1px solid transparent;
-  outline: none;
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
@@ -1265,13 +1244,12 @@ body {
 
 .hotel-card-button-favourit:hover {
   background-color: rgba(104, 162, 202, 1);
-  border: 1px solid rgba(117, 98, 87, 1);
-  outline: none;
+  outline: 1px solid rgba(117, 98, 87, 1);
 }
 
 .hotel-card-button-favourit:focus {
   background-color: rgba(104, 162, 202, 1);
-  border: 3px solid rgba(117, 98, 87, 1);
+  outline: 3px solid rgba(117, 98, 87, 1);
 }
 
 .hotel-card-button-favourit:active {
@@ -1381,9 +1359,7 @@ body {
   text-transform: uppercase;
   line-height: 26px;
   color: #ffffff;
-  margin-left: 290px;
-  margin-right: 284px;
-  margin-bottom: 57px;
+  margin: 0 284px 57px 290px;
   padding: 17px 0 17px 0;
   cursor: pointer;
 }
@@ -1547,8 +1523,7 @@ body {
 }
 
 .modal-title {
-  margin: 0;
-  margin-bottom: 32px;
+  margin: 0 0 32px 0;
   font-family: "PT Sans", sans-serif;
   font-size: 30px;
   line-height: 40px;
@@ -1709,8 +1684,7 @@ body {
 
 .tooltip {
   position: absolute;
-  margin-top: 24px;
-  margin-left: 22px;
+  margin: 24px 0 0 22px;
   width: 25px;
   height: 25px;
 }
