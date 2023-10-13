@@ -26,7 +26,7 @@ html {
 
 body {
   min-width: 1200px;
-  margin: 0 auto 0 auto;
+  margin: 0 40px 0 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -37,8 +37,6 @@ body {
   line-height: 21px;
   color: #000000;
   background: #f2f2f2;
-  margin-left: 40px;
-  margin-right: 40px;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -178,7 +176,6 @@ body {
 
 .button {
   display: inline-block;
-  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 20px;
@@ -353,8 +350,7 @@ body {
 }
 
 .advantages-text-2 {
-  margin-top: 20px;
-  margin-bottom: 79px;
+  margin: 20px 0 79px 0;
 }
 
 .grid-container-3 {
@@ -413,8 +409,7 @@ body {
 }
 
 .advantages-text-4 {
-  margin-top: 30px;
-  margin-bottom: 108px;
+  margin: 30px 0 108px 0;
 }
 
 .search-title {
@@ -423,16 +418,14 @@ body {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 91px;
-  margin-bottom: 0;
+  margin: 91px 0 0 0;
 }
 
 .search-text {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
-  margin-top: 29px;
-  margin-bottom: 0;
+  margin: 29px 0 0 0;
 }
 
 .button-search {
@@ -487,10 +480,10 @@ body {
 }
 
 .newsletter-email .field {
-  font-family: "PT Sans'", sans-serif;
+  font-family: inherit;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: inherit;
   line-height: 26px;
   width: 600px;
   border-radius: 10px 0 0 10px;
@@ -527,7 +520,7 @@ body {
 }
 
 .newsletter-button {
-  font-family: "PT Sans", sans-serif;
+  font-family: inherit;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
@@ -584,8 +577,7 @@ body {
 .footer-social-item {
   min-width: 20px;
   min-height: 20px;
-  margin-right: 22px;
-  margin-top: 50px;
+  margin: 50px 22px 0 0;
 }
 
 .footer-social-item:nth-child(3n) {
@@ -695,7 +687,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   font-size: 16px;
-  line-height: 21px;
   padding-bottom: 30px;
   margin: 0;
 }
@@ -770,7 +761,6 @@ body {
 .catalog-filter-title {
   font-weight: 700;
   font-size: 20px;
-  line-height: 25.88px;
   margin-bottom: 32px;
 }
 
@@ -841,7 +831,6 @@ body {
 
 .control-label {
   font-weight: 400;
-  font-size: 18px;
   line-height: 23px;
 }
 
@@ -856,7 +845,7 @@ body {
 
 .range-input {
   width: 40px;
-  font-size: 18px;
+  font-size: inherit;
   font-weight: 400;
   color: rgba(255, 255, 255, 1);
   background-color: transparent;
@@ -968,7 +957,7 @@ body {
 .button-submit {
   font-weight: 700;
   font-size: 16px;
-  line-height: 21px;
+  line-height: inherit;
   text-transform: uppercase;
   text-align: center;
   background: #83b3d3;
@@ -1000,7 +989,7 @@ body {
 
 .button-reset {
   font-weight: 400;
-  font-size: 18px;
+  font-size: inherit;
   line-height: 23px;
   color: #ffffff;
   text-align: center;
@@ -1050,7 +1039,6 @@ body {
 
 .sorting-type {
   font-weight: 400;
-  font-size: 18px;
   line-height: 23px;
   width: 287px;
   margin: 25px 74px 0 0;
@@ -1070,8 +1058,8 @@ body {
 
 .select-control {
   width: 287px;
-  font-family: "PT Sans", sans-serif;
-  font-size: 18px;
+  font-family: inherit;
+  font-size: inherit;
   font-weight: 400;
   padding: 12px 40px 13px 19px;
   color: rgba(51, 51, 51, 1);
@@ -1189,7 +1177,6 @@ body {
 .hotel-card-type,
 .hotel-card-price {
   font-weight: 400;
-  font-size: 18px;
   line-height: 23px;
 }
 
@@ -1200,7 +1187,6 @@ body {
   border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 21px;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
@@ -1232,7 +1218,6 @@ body {
   border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 21px;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
@@ -1267,7 +1252,6 @@ body {
   outline: none;
   font-weight: 700;
   font-size: 16px;
-  line-height: 21px;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
@@ -1305,7 +1289,6 @@ body {
   background: #f2f2f2;
   border-radius: 4px;
   font-size: 16px;
-  line-height: 21px;
   text-align: center;
   text-transform: uppercase;
   color: #333333;
@@ -1438,14 +1421,13 @@ body {
   display: flex;
   align-items: center;
   font-weight: 400;
-  font-size: 18px;
   line-height: 23px;
   margin-left: auto;
 }
 
 .select-control-on-page {
   padding: 12px 40px 13px 19px;
-  font-size: 18px;
+  font-size: inherit;
   font-weight: 400;
   color: rgba(51, 51, 51, 1);
   border: 2px solid rgba(230, 230, 230, 1);
@@ -1496,6 +1478,7 @@ body {
   background-color: rgba(242, 242, 242, 1);
   border: 1px solid rgba(242, 242, 242, 1);
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .modal-close-button-svg {
@@ -1506,6 +1489,7 @@ body {
   width: 13px;
   height: 13px;
   background-color: rgba(242, 242, 242, 1);
+  outline: 3px transparent;
 }
 
 .modal-close-button:hover {
@@ -1514,8 +1498,7 @@ body {
 
 .modal-close-button:focus {
   background-color: rgba(230, 230, 230, 1);
-  border: 3px solid rgba(131, 179, 211, 1);
-  outline: none;
+  outline: 3px solid rgba(131, 179, 211, 1);
 }
 
 .modal-close-button:active {
@@ -1524,7 +1507,6 @@ body {
 
 .modal-title {
   margin: 0 0 32px 0;
-  font-family: "PT Sans", sans-serif;
   font-size: 30px;
   line-height: 40px;
   font-weight: 700;
@@ -1556,7 +1538,7 @@ body {
   border: 1px solid rgba(242, 242, 242, 1);
   border-radius: 4px;
   font-weight: 700;
-  font-size: 18px;
+  font-size: inherit;
   color: rgba(0, 0, 0, 1);
   line-height: 40px;
   padding-left: 15px;
@@ -1578,7 +1560,14 @@ body {
 }
 
 .quantity-form-adults {
+  display: flex;
+  align-items: center;
   margin-right: 53px;
+}
+
+.quantity-form-children {
+  display: flex;
+  align-items: center;
 }
 
 .modal-text-checkout,
@@ -1613,7 +1602,7 @@ body {
   width: 44px;
   height: 48px;
   font-weight: 700;
-  font-size: 18px;
+  font-size: inherit;
   text-align: center;
   color: rgba(0, 0, 0, 1);
   line-height: 40px;
@@ -1649,7 +1638,7 @@ body {
   fill: rgba(0, 0, 0, 1);
   opacity: 30%;
   padding: 12px 6px;
-  border: 1px solid rgba(242, 242, 242, 1);
+  outline: 1px solid rgba(242, 242, 242, 1);
 }
 
 .svg-plus {
@@ -1659,27 +1648,30 @@ body {
   fill: rgba(0, 0, 0, 1);
   opacity: 30%;
   padding: 6px 6px;
-  border: 1px solid rgba(242, 242, 242, 1);
+  outline: 1px solid rgba(242, 242, 242, 1);
 }
 
 .svg-plus:hover,
 .svg-minus:hover {
   fill: rgba(0, 0, 0, 1);
+  opacity: 1;
 }
 
 .svg-plus:focus,
 .svg-minus:focus {
   opacity: 20%;
+  outline: none;
 }
 
 .svg-plus:active,
 .svg-minus:active {
   fill: rgba(0, 0, 0, 1);
-  border: 3px solid rgba(131, 179, 211, 1);
+  outline: 3px solid rgba(131, 179, 211, 1);
+  opacity: 1;
 }
 
 .quantity-adults {
-  margin-right: 67px;
+  margin: 0 67px 0 0;
 }
 
 .tooltip {
@@ -1694,7 +1686,7 @@ body {
   border-radius: 50%;
   background-color: rgba(131, 179, 211, 1);
   padding: 8px 12px;
-  margin: 0 3px 0 3px;
+  margin: 0 12px 0 12px;
 }
 
 .tooltip-icon {
@@ -1712,10 +1704,11 @@ body {
   position: absolute;
   width: 215px;
   display: none;
-  left: 33%;
+  left: 34%;
+  top: 110%;
   z-index: 1;
   transform: translateX(-50%);
-  font-family: "PT Sans", sans-serif;
+  font-family: inherit;
   background-color: rgba(51, 51, 51, 1);
   color: rgba(255, 255, 255, 1);
   font-size: 16px;
@@ -1752,7 +1745,7 @@ body {
   width: 575px;
   background: rgba(131, 179, 211, 1);
   border-radius: 10px;
-  border: none;
+  border: 3px solid transparent;
   font-weight: 700;
   font-size: 20px;
   text-align: center;
@@ -1776,6 +1769,7 @@ body {
   background-color: rgba(104, 162, 202, 1);
   color: rgba(255, 255, 255, 1);
   opacity: 30%;
+  border: 3px solid transparent;
 }
 
 .modal-container-close {
