@@ -669,7 +669,7 @@ body {
 }
 
 .background-catalog {
-  background-image: url("/img/catalog/background.jpg");
+  background-image: url("../img/catalog/background.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   color: #ffffff;
